@@ -1,20 +1,7 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import AutochainDashboard from "./components/Autochain-dashboard";
 
-function App() {
-  const [count, setCount] = useState(0)
 
-  return (
-    <>
-      <div className="flex h-screen">
-        <Sidebar />
-        <Dashboard />
-      </div>
-      
-    </>
-  )
+export default function Home() {
+  return <AutochainDashboard/>
 }
 
-export default App
